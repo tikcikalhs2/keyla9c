@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Halaman Utama - Velvet Bliss</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff0f6;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .main-title {
+      font-size: 36px;
+      font-weight: bold;
+      font-style: italic;
+      color: #CC66CC;
+      margin: 0;
+    }
+
+    .banner {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f0cce6;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      padding: 15px 30px;
+      font-size: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    nav a:nth-child(1) { background-color: #FF99CC; }
+    nav a:nth-child(2) { background-color: #9999CC; }
+    nav a:nth-child(3) { background-color: #CC9999; }
+    nav a:nth-child(4) { background-color: #CC99CC; }
+
+    .section {
+      width: 90%;
+      max-width: 1200px;
+      margin: 30px auto;
+      background-color: #FFCCFF;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #663366;
+      border-radius: 5px;
+    }
+
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      margin: 30px auto;
+      max-width: 1200px;
+      padding: 0 20px;
+    }
+
+    .product-image {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .product-image img {
+      width: 100%;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .product-details {
+      max-width: 500px;
+    }
+
+    .product-details h2 {
+      font-size: 28px;
+      color: #cc66cc;
+      margin-bottom: 10px;
+    }
+
+    .product-details p {
+      font-size: 18px;
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .price {
+      font-size: 24px;
+      color: #990099;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .buy-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ff66b2;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .buy-button:hover {
+      background-color: #e0559e;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="main-title">Velvet Bliss</h1>
+  </header>
+
+  <img src="img/banner.png" alt="Banner Velvet Bliss" class="banner">
+
+  <nav>
+    <a href="#">HOME</a>
+    <a href="#">CATALOG</a>
+    <a href="#">SHOPPING GUIDE </a>
+    <a href="#">PROFILE</a>
+  </nav>
+
+  <div class="section">Makeup</div>
+  <div class="section">Eyeshadow</div>
+
+  <div class="product-container">
+    <div class="product-image">
+      <img src="img/59eec9db30256441a4a05aef8e584f64.jpg_720x720q80.jpg" alt="Eyeshadow Product">
+    </div>
+    <div class="product-details">
+      <h2>Velvet Bliss Eyeshadow Palette</h2>
+      <p>
+        Nikmati palet eyeshadow berkualitas tinggi dari Velvet Bliss, dengan warna-warna yang 
+        cocok untuk segala suasana — mulai dari tampilan natural hingga glamor malam hari.
+      </p>
+      <p>
+        Dengan tekstur halus, pigmentasi tinggi, dan mudah dibaurkan, palet ini cocok untuk 
+        pemula maupun profesional.
+      </p>
+      <p class="price">Rp55.000</p>
+      <a href="#" class="buy-button">Beli Sekarang</a>
+    </div>
+  </div>
+
+</body>
+</html>
